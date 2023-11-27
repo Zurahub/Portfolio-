@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    background-color: #4d6d8c;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.navvy{
+  background-color: #2A3C4E;
+}
+.navbar-light, .navbar-toggler{
+  color: white;
+  border-color: white;
+}
+.navbar-light, .navbar-toggler:hover{
+  color: gray;
+  border-color: gray;
+}
+.nav-link {
+  color: white;
+}
+main {
+    flex: 1 0 auto;
+}
+.hero-text{
+  font-size: 8vw;
+  opacity: .5;
+}
+.card-body{
+  background-color: #dfdfdf;
+}
+.btn-outline-dark{
+  background-color: lightsteelblue;
+}
+.btn-outline-dark:hover {
+  background-color: steelblue;
+}
+footer {
+    flex-shrink: 0;
+}
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0; 
+}
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    color: #dfdfdf;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
